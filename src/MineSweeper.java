@@ -41,6 +41,7 @@ public class MineSweeper{
 
         for(Mine mine : mines)
             map[mine.row][mine.col] = true;
+
         for (int rowIndex = 0; rowIndex < row; rowIndex++) {
             for (int colIndex = 0; colIndex < col; colIndex++) {
                 if(map[rowIndex][colIndex])
